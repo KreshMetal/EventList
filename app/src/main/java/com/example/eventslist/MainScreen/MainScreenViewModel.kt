@@ -1,15 +1,15 @@
-package com.example.eventslist
+package com.example.eventslist.MainScreen
 
 import android.util.Log
-import android.widget.Toast
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.eventslist.DI.DaggerAppComponent
+import com.example.eventslist.Model.FavoriteList
+import com.example.eventslist.Model.Session
+import com.example.eventslist.Model.SessionsRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import okhttp3.internal.toImmutableMap
-import javax.inject.Inject
 
 class MainScreenViewModel : ViewModel() {
     private val _state = MutableStateFlow(MainScreenState(emptyMap<String, List<Session>>(), FavoriteList()))

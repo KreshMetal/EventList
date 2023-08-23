@@ -1,6 +1,6 @@
 package com.example.eventslist.DI
 
-import com.example.eventslist.SessionsRepository
+import com.example.eventslist.Model.SessionsRepository
 import dagger.Component
 import dagger.Module
 import dagger.Provides

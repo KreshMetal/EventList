@@ -1,4 +1,4 @@
-package com.example.eventslist
+package com.example.eventslist.Model
 
 data class FavoriteList(val values : List<Session?> = listOf<Session?>(null, null, null))
 {

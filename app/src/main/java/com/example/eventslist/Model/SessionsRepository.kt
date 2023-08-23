@@ -1,4 +1,4 @@
-package com.example.eventslist
+package com.example.eventslist.Model
 
 import android.util.Log
 import com.google.gson.Gson

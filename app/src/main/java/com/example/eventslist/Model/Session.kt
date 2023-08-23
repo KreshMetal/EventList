@@ -1,4 +1,4 @@
-package com.example.eventslist
+package com.example.eventslist.Model
 
 data class Session(
     val date: String,
